@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+}
+.nav--bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+.nav--bar img{
+    height: 35px;
+    width: auto;
+    margin-right: 5px;
+}
+.nav--bar p{
+    margin: 0px;
+    color: white;
+}
+@media(max-width:575px){
+    html body .travel--location--container{
+        display: block;
+        text-align: center;
+    }
+    .img--container{
+        margin: 0px 0px 10px 0px;
+    }
+    .location--header{
+        justify-content: center;
+    }
+    
+}
+.travel--location--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.img--container{
+    margin-right: 20px;
+}
+.img--container img{
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+}
+.location--header{
+    display: flex;
+    align-items: center;
+}
+.location--header img{
+    height: 15px;
+    width: auto;
+    margin-right: 5px;
+}
+.location--header p{
+    margin: 0px 15px 0px 0px;
+    font-weight: thin;
+}
+.location--header a{
+    color: #918E9B;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.location--info h1{
+    margin-top: 5px;
+}
+@media (max-width:765px){
+    .travel--location--container .location--info .trip--description{
+        width:80%
+    }
+}
+@media (max-width:575px){
+    .travel--location--container .location--info .trip--description{
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+}
+
+.trip--date{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.trip--description{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    width: 450px;
+}
